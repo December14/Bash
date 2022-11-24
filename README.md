@@ -1,7 +1,7 @@
 # Bash
 
  ### Solution :
- #### [Task1_Task2](bash_steps.txt)
+ #### [Task1-Task2](bash_steps.txt)
  ---
  ### Task 1 :
 1. Determine the name of the folder you are in
