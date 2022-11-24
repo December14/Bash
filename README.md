@@ -1,5 +1,8 @@
-
 # Bash
+
+ ### Solution :
+ #### [Task1_Task2](bash_steps.txt)
+ ---
  ### Task 1 :
 1. Determine the name of the folder you are in
 2. Create a folder named test1
@@ -36,6 +39,3 @@
 14. Send 5 packages to the website artsiomrusau.com
 15. Using GET and the curl command, get information about registered pets on https://petstore.swagger.io /
 16. Using PAST and the curl command, create a new user on https://petstore.swagger.io/
-
- ### Solution :
- #### [Task1_Task2](bash_steps.txt)
