@@ -1,0 +1,95 @@
+
+Task 1 
+
+cd /Users/thecreator/Desktop/Testing/Homewwork/bash_task
+1. 
+  pwd
+2. 
+  mkdir test1
+3. 
+  cd test1
+4. 
+  touch file1 file2 file3
+5. 
+  ls
+6. 
+  cd - 
+  mkdir test2
+7. 
+  rmdir test2
+8. 
+  rm test1/file2
+9. 
+  mkdir test3
+10. 
+  rmdir test3
+11. 
+  mkdir test4
+12.
+  mv test1/file1 test4
+  mv test1/file3 test4
+13.
+  echo "line" >> file1 
+  echo "line" >> file1 
+  echo "line" >> file1 
+14.
+  cat file1
+15.
+  echo "line" >> file3 
+  echo "line" >> file3 
+  echo "line" >> file3 
+16.
+  cat file1 file3
+17.
+  nano file1
+  nano file3
+  cat file1 file3
+
+Task 2
+
+1. 
+  mkdir test3
+2. 
+  touch file4 file5 file6 | echo -e " row1 \n row2 \n row3 \n row4" | tee -a file4 file5 file6 > /dev/null
+3. 
+  grep row2 file5
+4.
+  grep -R row test3
+5.
+  grep -c row /Users/thecreator/Desktop/Testing/Homewwork/bash_task/test3/file6
+6.
+  find . -name file5
+7.
+  find . -name "file4" -delete -print
+./test3/file4
+8. 
+  echo test >> file4
+9.
+  echo fail > file4
+10.
+  echo test >> file4
+11.
+  ps au
+12.
+  kill 666
+13.
+  ping artsiomrusau.com
+14.
+  ping -c 5 artsiomrusau.com
+15.
+  curl -X 'GET' \ 'https://petstore.swagger.io/v2/pet/findByStatus?status=available' 
+16.
+  curl -X 'POST' \
+  'https://petstore.swagger.io/v2/user' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "id": 0,
+  "username": "string",
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string",
+  "phone": "string",
+  "userStatus": 0
+}'
