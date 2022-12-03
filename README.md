@@ -37,5 +37,5 @@
 12. Kill process 666 in the console
 13. Find out the availability of the resource artsiomrusau.com using ping
 14. Send 5 packages to the website artsiomrusau.com
-15. Using GET and the curl command, get information about registered pets on https://petstore.swagger.io /
+15. Using GET and the curl command, get information about registered pets on https://petstore.swagger.io
 16. Using PAST and the curl command, create a new user on https://petstore.swagger.io/
